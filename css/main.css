@@ -1,0 +1,213 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    line-height: 1.4em;
+}
+
+p{
+    margin: 0;
+    line-height: 1.37em;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+header{
+    padding-top: 60px;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.offer-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offer{
+    width: 465px;
+}
+
+.introtext{
+    margin: 30px 0;
+}
+
+.logo{
+    display: block;
+    margin-bottom: 82px;
+}
+
+.introtext{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    background: #FF6861;
+    border-radius: 100px;
+    padding: 22px 70px;
+    display: block;
+    width: 227px;
+    transition: all 0.5s ease;
+}
+
+.btn:hover{
+    color: black;
+    background-color: rgb(217, 57, 99);
+}
+
+section{
+    padding-top: 120px;
+}
+
+.signs{
+    display: flex;
+    flex-direction: column;
+    margin: 70px auto 0 auto;
+    gap: 41px;
+    width: 720px;
+    transition: all 0.5s ease;
+}
+
+.sign-item{
+    display: flex;
+    align-items: center;
+}
+
+.sign-img{
+    width: 73px;
+    margin-right: 34px;
+}
+
+.sign-title{
+    margin-bottom: 11px;
+}
+
+.footer{
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+}
+
+.victory{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    border-radius: 60px;
+    padding: 76px 125px 75px 122px ;
+    align-items: center;
+}
+
+.victory-item{
+    display: block;
+    width: 475px;
+    margin-right: 101px;
+}
+
+.victory-title{
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.victory-text{
+    width: 371px;
+    margin-bottom: 24px;
+}
+
+.footer{
+text-align: center;
+    padding: 120px 0;
+}
+
+@media (max-width: 1199px){
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media(max-width: 991px){
+    .container{
+        max-width: 720px;
+    }
+    .logo{
+    margin: 0 auto
+}
+    .offer-wrapper{
+        flex-direction: column;
+        text-align: center;
+        gap: 51px;
+    }
+    .btn{
+        margin: 0 auto;
+    }
+    .victory{
+        flex-direction: column;
+        gap: 101px
+    }
+    .victory-title{
+        text-align: center;
+    }
+    .victory-text{
+        width: 100%;
+    }
+    .victory-item{
+    margin: auto;
+    }
+    .offer{
+        margin-top: 79px;
+    }
+
+@media (max-width: 767px) {
+    .container{
+        max-width: 540px;
+    }
+    .victory-item{
+        width: auto;
+    }
+    .sign-item{
+        flex-direction: column;
+        text-align: center;
+    }
+    .signs{
+        width: auto;
+    }
+}
+
+@media(max-width: 575px){
+    .container{
+        padding: 0 15px;
+    }
+}
+
